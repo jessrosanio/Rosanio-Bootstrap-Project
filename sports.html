@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jessica Rosanio">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Raleway:wght@100;200;300&family=Shizuru&display=swap" rel="stylesheet">
+    <!-- Bootstrap v5.1.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<link href="css/custom.css" rel="stylesheet" type="text/css" media="screen">
+    <link rel="icon" type="image/x-icon" href="images/hburg-logo.png" />
+    <title>Sports</title>
+    <style>
+        .boxtop {
+            grid-column: 1/13;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.6), rgba(0,0,0,0), rgba(0,0,0,0)), url("images/stadium.jpg");
+            background-size:cover;
+            background-position: center center;
+            height:600px;
+            padding-top: 30px;
+            padding-left: 5px;
+        }
+        .link1 {
+            grid-column: 1/4;
+            display: grid;
+            place-items: center;
+            padding: 10px;
+        }
+        .link2 {
+            grid-column: 4/7;
+            display: grid;
+            place-items: center;
+            padding: 10px;
+        }
+        .link3 {
+            grid-column: 7/10;
+            display: grid;
+            place-items: center;
+            padding: 10px;
+        }
+        .link4 {
+            grid-column: 10/13;
+            display: grid;
+            place-items: center;
+            padding: 10px;
+        }
+        .link5 {
+            grid-column: 1/4;
+            display: grid;
+            place-items: center;
+            padding: 10px;
+        }
+        .link6 {
+            grid-column: 4/7;
+            display: grid;
+            place-items: center;
+            padding: 10px;
+        }
+        .link7 {
+            grid-column: 7/10;
+            display: grid;
+            place-items: center;
+            padding: 10px;
+        }
+        .link8 {
+            grid-column: 10/13;
+            display: grid;
+            place-items: center;
+            padding: 10px;
+        }
+        .box11 {
+            grid-column: 1/5;
+            background-color: rgb(245, 239, 164);
+            padding: 20px 20px 20px 50px;
+        }
+        .box12 {
+            grid-column: 5/9;
+            background-color: rgb(245, 239, 164);
+            padding: 20px 20px 20px 50px;
+        }
+        .box13 {
+            grid-column: 9/13;
+            background-color: rgb(245, 239, 164);
+            padding: 20px 20px 20px 50px;
+        }
+        a:link {
+            color: #fff;
+            text-decoration: none;
+        }
+        a:visited {
+            color: #fff;
+        }
+        a:hover {
+            color:#aaa;
+            text-decoration-style: double;
+        }
+        @media only screen and (max-width:1000px) {
+				.link1 {
+					grid-column: 1/7;
+				}
+				.link2 {
+					grid-column: 7/13;
+				}
+				.link3 {
+					grid-column: 1/7;
+				}
+				.link4 {
+					grid-column: 7/13;
+				}
+				.link5 {
+					grid-column: 1/7;
+				}
+				.link6 {
+					grid-column: 7/13;
+				}
+                .link7 {
+                    grid-column: 1/7;
+                }
+                .link8 {
+                    grid-column: 7/13;
+                }
+				.box11 {
+					grid-column: 1/7;
+				}
+				.box12 {
+					grid-column: 7/13;
+				}
+				.box13 {
+					grid-column: 1/13;
+					text-align: center;
+				}
+			}
+			@media only screen and (max-width:700px) {
+				.link1 {
+					grid-column: 1/13;
+				}
+				.link2 {
+					grid-column: 1/13;
+				}
+				.link3 {
+					grid-column: 1/13;
+				}
+				.link4 {
+					grid-column: 1/13;
+				}
+				.link5 {
+					grid-column: 1/13;
+				}
+				.link6 {
+					grid-column: 1/13;
+				}
+                .link7 {
+                    grid-column: 1/13;
+                }
+                .link8 {
+                    grid-column: 1/13;
+                }
+				.box11 {
+					grid-column: 1/13;
+					text-align: center;
+				}
+				.box12 {
+					grid-column: 1/13;
+					text-align: center;
+				}
+			}
+    </style>
+</head>
+<body id="page-top">
+    <div class="container">
+        <div class="boxtop">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+                <div class="container px-4">
+                    <a class="nav-item" href="index.html">Harrisonburg</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="downtown.html">Downtown</a></li>
+                            <li class="nav-item"><a class="nav-link" href="jmu.html">JMU</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="bella-luna.html" role="button" aria-expanded="false">Restaurants</a>
+                                <ul class="dropdown-menu bg-dark">
+                                  <li><a class="dropdown-item" href="cap-ale.html">Capital Ale House</a></li>
+                                  <li><a class="dropdown-item" href="rock-kitchen.html">Rocktown Kitchen</a></li>
+                                  <li><a class="dropdown-item" href="bella-luna.html">Bella Luna</a></li>
+                                  <li><a class="dropdown-item" href="gc-mania.html">Grilled Cheese Mania</a></li>
+                                </ul>
+                              </li>
+                            <li class="nav-item"><a class="nav-link" href="#page-top">Sports</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="link1">
+            <a href="images/volleyball.JPG"><img src="images/volleyball.JPG" alt="Volleyball"></a>
+            <p>Women's Volleyball Game</p>
+        </div>
+        <div class="link2">
+            <a href="images/vb-win.JPG"><img src ="images/vb-win.JPG" alt="VB Win"></a>
+            <p>Women's Volleyball Win</p>
+        </div>
+        <div class="link3">
+            <a href="images/soccer.jpg"><img src ="images/soccer.jpg" alt="Soccer"></a>
+            <p>Women's Soccer Game</p>
+        </div>
+        <div class="link4">
+            <a href="images/soccer3.JPG"><img src ="images/soccer3.JPG" alt="Soccer3"></a>
+            <p>Soccer Pre-game Huddle</p>
+        </div>
+        <div class="link5">
+            <a href="images/fans.JPG"><img src ="images/fans.JPG" alt="Fans"></a>
+            <p>Duke Dog with some Volleyball Fans</p>
+        </div>
+        <div class="link6">
+            <a href="images/baseball2.JPG"><img src ="images/baseball2.JPG" alt="Baseball"></a>
+            <p>Men's Baseball</p>
+        </div>
+        <div class="link7">
+            <a href="images/basketball.jpg"><img src ="images/basketball.jpg" alt="Basketball"></a>
+            <p>Women's Basketball</p>
+        </div>
+        <div class="link8">
+            <a href="images/tennis.JPG"><img src ="images/tennis.JPG" alt="Tennis"></a>
+            <p>Men's Tennis Practice</p>
+        </div>
+        <div class="box11">
+            <p>
+                <strong>CITY OF HARRISONBURG</strong>
+            </p>
+            <p>
+                City Hall<br>
+                409 South Main Street<br>
+                Harrisonburg, VA 22801
+            </p>
+            <p>General Information: 540-432-7701</p>
+        </div>
+        <div class="box12">
+            <p>
+                <strong>JAMES MADISON UNIVERSITY</strong>
+            </p>
+            <p>
+                800 South Main Street<br>
+                Harrisonburg, VA 22807-0001
+            </p>
+            <p>Campus Information: (540) 568-6211</p>
+        </div>
+        <div class="box13">
+            <p>
+                <strong>HARRISONBURG TOURISM</strong>
+            </p>
+            <p>
+                212 South Main Street<br>
+                Harrisonburg, VA 22801
+            </p>
+            <p>Contact: (540) 432-8935</p>
+        </div>
+    </div>
+</body>
+</html>

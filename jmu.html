@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jessica Rosanio">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Raleway:wght@100;200;300&family=Shizuru&display=swap" rel="stylesheet">
+    <!-- Bootstrap v5.1.3 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<link href="css/custom.css" rel="stylesheet" type="text/css" media="screen">
+    <link rel="icon" type="image/x-icon" href="images/hburg-logo.png" />
+    <title>JMU Page</title>
+    <style>
+        .boxtop {
+            grid-column: 1/13;
+            grid-row: 1/3;
+            background: linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),url("images/jmu.jpg");
+            background-size:cover;
+            background-position: top center;
+            height:800px;
+            padding-top: 30px;
+            padding-left: 5px;
+            background-color: rgb(217, 216, 252);
+        }
+        .overlay {
+				grid-column: 1/13;
+				grid-row: 2/3;
+				color:#000;
+                text-align: center;
+				/* display: flex;
+				justify-content:center;
+				align-items: center;
+				padding-left: 40px;
+				padding-bottom: 400px;
+				line-height: 5.3rem; */
+			}
+        .box2 {
+            grid-column: 1/13;
+            background-color: rgb(217, 216, 252);
+        }
+        .box3 {
+            grid-column: 1/5;
+            display: grid;
+            place-items: center;
+            padding:10px;
+        }
+        .box4 {
+            grid-column: 5/9;
+            display: grid;
+            place-items: center;
+            text-align: center;
+            padding:10px;
+        }
+        .box5 {
+            grid-column: 9/13;
+            display: grid;
+            place-items: center;
+            padding:10px;
+        }
+        .box6 {
+            grid-column: 1/5;
+            display: grid;
+            place-items: center;
+            padding:10px;
+        }
+        .box7 {
+            grid-column: 5/9;
+            display: grid;
+            place-items: center;
+            padding:20px;
+        }
+        .box8 {
+            grid-column: 9/13;
+            display: grid;
+            place-items: center;
+            padding:20px;
+        }
+        .box9 {
+            grid-column: 1/7;
+            display: grid;
+            place-items: center;
+            padding:5px 20px 5px 0px;
+            /* background-color: rgb(178, 146, 252); */
+            height: 450px;
+        }
+        .box10 {
+            grid-column: 7/13;
+            display: grid;
+            place-items: center;
+            padding:5px 0px 5px 20px;
+            /* background-color: rgb(178, 146, 252); */
+        }
+        .box11 {
+            grid-column: 1/5;
+            background-color: rgb(245, 239, 164);
+            padding: 20px 20px 20px 50px;
+        }
+        .box12 {
+            grid-column: 5/9;
+            background-color: rgb(245, 239, 164);
+            padding: 20px 20px 20px 50px;
+        }
+        .box13 {
+            grid-column: 9/13;
+            background-color: rgb(245, 239, 164);
+            padding: 20px 20px 20px 50px;
+        }
+        a:link {
+            color: #fff;
+            text-decoration: none;
+        }
+        a:visited {
+            color: #fff;
+        }
+        a:hover {
+            color:#aaa;
+            text-decoration-style: double;
+        }
+        @media only screen and (max-width:1000px) {
+				.box3 {
+					grid-column: 1/7;
+				}
+				.box4 {
+					grid-column: 7/13;
+				}
+				.box5 {
+					grid-column: 1/7;
+				}
+				.box6 {
+					grid-column: 7/13;
+				}
+				.box7 {
+					grid-column: 1/7;
+				}
+				.box8 {
+					grid-column: 7/13;
+				}
+                .box9 {
+                    grid-column: 1/13;
+                }
+                .box10 {
+                    grid-column: 1/13;
+                }
+				.box11 {
+					grid-column: 1/7;
+				}
+				.box12 {
+					grid-column: 7/13;
+				}
+				.box13 {
+					grid-column: 1/13;
+					text-align: center;
+				}
+			}
+			@media only screen and (max-width:700px) {
+				.box3 {
+					grid-column: 1/13;
+				}
+				.box4 {
+					grid-column: 1/13;
+				}
+				.box5 {
+					grid-column: 1/13;
+				}
+				.box6 {
+					grid-column: 1/13;
+				}
+				.box7 {
+					grid-column: 1/13;
+				}
+				.box8 {
+					grid-column: 1/13;
+				}
+				.box11 {
+					grid-column: 1/13;
+					text-align: center;
+				}
+				.box12 {
+					grid-column: 1/13;
+					text-align: center;
+				}
+			}
+    </style>
+</head>
+<body id="page-top">
+    <div class="container">
+        <div class="boxtop">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+                <div class="container px-4">
+                    <a class="nav-item" href="index.html">Harrisonburg</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="downtown.html">Downtown</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#page-top">JMU</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="bella-luna.html" role="button" aria-expanded="false">Restaurants</a>
+                                <ul class="dropdown-menu bg-dark">
+                                  <li><a class="dropdown-item" href="cap-ale.html">Capital Ale House</a></li>
+                                  <li><a class="dropdown-item" href="rock-kitchen.html">Rocktown Kitchen</a></li>
+                                  <li><a class="dropdown-item" href="bella-luna.html">Bella Luna</a></li>
+                                  <li><a class="dropdown-item" href="gc-mania.html">Grilled Cheese Mania</a></li>
+                                </ul>
+                              </li>
+                            <li class="nav-item"><a class="nav-link" href="sports.html">Sports</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="overlay">
+            <h3>James Madison University</h3>
+            <p>
+                JMU has a variety of dining and residence halls where students can bond and experience the culture this school has to offer. If you want to stay inside and still got food one of our starbots can deliver it to your location. At UREC students can participate in a wide variety of activities, classes, and workout routines. 
+            </p>
+        </div>
+
+        <!-- <div class="box2">
+            
+        </div> -->
+        <div class="box3">
+            <img src="images/dorm.jpg" alt="Dorms">
+            East Campus Dorms
+        </div>
+        <div class="box4">
+            <img src="images/carrier.jpg" alt="Carrier Library">
+            Carrier Library
+        </div>
+        <div class="box5">
+            <img src="images/pyschem.jpg" alt="Physics and Chemistry Building">
+            Physics and Chemistry Building
+            
+        </div>
+        <div class="box6">
+            <img src="images/bot.jpg" alt="Starship Bot">
+            Starship Robot
+        </div>
+        <div class="box7">
+            <img src="images/festival.jpg" alt="Festival Dining">
+            Festival Dining Hall
+        </div>
+        <div class="box8">
+            <img src="images/urec.jpg" alt="UREC">
+            UREC Rock Climbing
+        </div>
+        <div class="box9">
+            <img src="images/community2.jpg" alt="Community">
+        </div>
+        <div class="box10">
+            <h3>The JMU Community</h3>
+            <p>
+                JMU students come from major cities and small towns. They come from Virginia and 45 other states, and they hail from more than 50 different countries. JMU quickly feels like home for all students because this is a friendly community of learners that holds doors for one another, that is eager to meet new people, grab lunch between classes and even try a new fitness hobby. With so many rich offerings on campus, everyone is sure to find a home at JMU. Here at JMU, we bleed purple and gold – school spirit is a huge part of the Madison Experience. Whether you’re proudly taking selfies with Duke Dog at a football game or holding a door for a fellow Duke, you’ll see why there is so much JMU love to go around. Campus is full of long-standing traditions that connect Dukes across generations, and the best tradition is leaving campus with a fulfilling and memorable experience.
+            </p>
+        </div>
+        <div class="box11">
+            <p>
+                <strong>CITY OF HARRISONBURG</strong>
+            </p>
+            <p>
+                City Hall<br>
+                409 South Main Street<br>
+                Harrisonburg, VA 22801
+            </p>
+            <p>General Information: 540-432-7701</p>
+        </div>
+        <div class="box12">
+            <p>
+                <strong>JAMES MADISON UNIVERSITY</strong>
+            </p>
+            <p>
+                800 South Main Street<br>
+                Harrisonburg, VA 22807-0001
+            </p>
+            <p>Campus Information: (540) 568-6211</p>
+        </div>
+        <div class="box13">
+            <p>
+                <strong>HARRISONBURG TOURISM</strong>
+            </p>
+            <p>
+                212 South Main Street<br>
+                Harrisonburg, VA 22801
+            </p>
+            <p>Contact: (540) 432-8935</p>
+        </div>
+    </div>
+</body>
+</html>

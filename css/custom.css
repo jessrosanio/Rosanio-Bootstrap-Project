@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+
+* {
+	box-sizing: border-box;
+}
+body {
+    margin:0;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 3px;
+}
+img {
+    max-width:100%;
+    height:auto;
+}
+.container {
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows:minmax(100px, auto);
+}
+nav {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.breadcrumb {
+    padding-top: 55px;
+    /* padding-left: 1000px; */
+    font-size: 13px;
+}
+.breadcrumb-item {
+    color: white;
+}
+
+
+
